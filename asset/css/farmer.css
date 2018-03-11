@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+#index-body {
+	/*background-color: #F5BB5Dlightgrey;*/
+	background: url("../images/profood.jpg") no-repeat top center fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.menu1 {
+	color: white;
+	height: 100px;
+	background: /*#696969*//*rgba(105,105,105,0.7)*/rgba(37,41,46,0.6);
+	width: 100%;
+	font-size: 12px;
+	position: fixed;
+	clear: both;
+}
+
+.inner-menu {
+	height: 100px;
+	width: 250px;
+	/*margin-top: 10px;*/
+	padding-top: 10x;
+	text-align: center;
+	float: right;
+	margin-right: 40px;
+
+}
+#con-h {
+	margin-left: 50px;
+}
+.inner-menu ul li {
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+}
+#menu-account {
+	border-left: 2px solid white;
+	padding-left: 10px;
+	color: rgb(73,172,213);
+
+}
+#menu-acct {
+	border-left: 2px solid white;
+	padding-left: 10px;
+}
+.layer-1 {
+	height: 550px;
+	width: 100%;
+	background-color: grey;
+	background-image: url("../images/farm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.focus {
+	height: 380px;
+	width: 500px;
+	position: relative;
+	/*background: rgba(37,41,46,0.6);*/
+	border-radius: 15px;
+	top: 160px;
+	margin-left: 20px;
+	padding-top: 100px;
+	padding-left: 20px;
+	font-family: 'Bungee', cursive;
+	color: white;
+}
+.layer-2 {
+	height: 370px;
+	width: 100%;
+	background-color: rgb(37,41,46);
+	text-align: center;
+	padding-top: 50px;
+	margin: auto;
+}
+.layer-2 ul li {
+	display: inline;
+	list-style: none;
+}
+.product-pane1 {
+	height: 300px;
+	width: 400px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	box-shadow: 2px 2px #888888;
+	display: inline-block;
+
+}
+
+.product-pane2 {
+	height: 300px;
+	width: 400px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	box-shadow: 2px 2px #888888;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.product-pane3 {
+	height: 300px;
+	width: 400px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	box-shadow: 2px 2px #888888;
+	display: inline-block;
+	margin-left: 20px;
+}
+.banner-down {
+	height: 50px;
+	width: 400px;
+	background: rgba(255,255,255,0.4);
+	position: relative;
+	top: 140px;
+}
+footer {
+	height: 500px;
+	width: 100%;
+	background-color: #212d38;
+	color: grey;
+	padding: 50px;
+	
+
+}
+footer ul li {
+	list-style: none;
+}
+.foot-pane1 {
+	width: 250px;
+	height: 300px;
+	float: left;
+	/*border: 2px solid white;*/
+}
+.foot-pane2 {
+	width: 500px;
+	height: 300px;
+	float: left;
+	border-left: 2px solid grey;
+}
+.foot-pane3 {
+	width: 400px;
+	height: 300px;
+	float: left;
+	border-left: 2px solid grey;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer-port1 {
+	float: left;
+	width: 150px;
+	/*margin-left: 50px;
+	margin-top: 50px;*/
+
+}
+.footer-port2{
+	/*margin-top: 50px;*/
+	width: 150px;
+	float: left;
+}
+.footer-port3{
+	position: relative;
+	width: 150px;
+	float: left;
+}
+.footer-port3 ul li {
+	display: inline;
+}
+/*Signin page styling*/
+#signin-body {
+	/*background-color: lightgreywhite;*/
+	background-image: url("../images/kogifarm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+.signbox {
+	height: 600px;
+	width: 500px;
+	/*border: 2px solid black;*/
+	border-radius: 5px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 80px auto 0 auto;
+	background: rgba(3,0,0,0.4);
+}
+.outerbox {
+	height: 800px;
+	width: 700px;
+	/*border: 2px solid black;*/
+	border-radius: 5px;
+	margin: 20px auto 0 auto;
+	/*background-image: url("../images/produce.png");*/
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+/*New Account page styling*/
+#account-body {
+	/*background-color: lightgrey;*/
+	background-image: url("../images/kogifarm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+
+}
+.accountbox {
+	color: black;
+	height: 800px;
+	width: 500px;
+	/*border: 2px solid black;*/
+	border-radius: 5px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 80px auto 0 auto;
+	background: rgba(3,0,0,0.4);
+
+
+}
+
+.coverbox {
+	height: 800px;
+	width: 500px;
+	/*border: 2px solid black;*/
+	border-radius: 5px;
+	margin: 20px auto 0 auto;
+	background-image: url("../images/paralax-fruit.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+/*shopping cart styling*/
+.cart-body{
+	background-color: lightblue;
+}
+/*Social media styling*/
+
+#trythis1 {
+	border-right: 2px solid white,
+}
+
+#trythis2 {
+	border-right: 2px solid white,
+}
+
+
+
+
+

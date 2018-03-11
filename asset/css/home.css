@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background: ;
+
+}
+.main-wrapper {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+}
+
+.header-wrapper {
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+	background-image: url("../images/work_africa.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.menubar {
+	width: 1000px;
+	height: 50px;
+	background: gray;
+}
+#menu {
+	padding: 0;
+	margin: 0;
+	line-height: 45px;
+	float: left;
+}
+#menu li {
+	list-style: none;
+	display: inline;
+
+}
+#menu a {
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	margin:5px;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+}
+#menu a:hover {
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+#form {
+	box-sizing: border-box;
+	float: right;
+	margin: 15px;
+	padding: auto;
+}
+#form button {
+  float: right;
+  padding: 6px 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+#form input[type=text] {
+  font-size: 17px;
+  border: none;
+}
+#form input button {
+	float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.content-wrapper{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background: pink;
+}
+
+#content-area {
+	width: 800px;
+	height: auto;
+	float: right;
+	background: white;
+}
+#sidebar {
+	width: 200px;
+	height: auto;
+	background:black;
+	float: left;
+}
+#sidebar-title {
+	background: white;
+	color:black;
+	font-size: 22px;
+	font-family: arial;
+	padding: 10px;
+	text-align: center;
+}
+#cats {
+	text-align: center;
+}
+#cats li {
+	list-style: none;
+	display: block;
+	margin:10px;
+}
+#cats a {
+	color:white;
+	padding: 8px;
+	margin: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: comic SANS MS;
+}
+#cats a:hover {
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+#footer {
+	width: 1000px;
+	height: 100px;
+	background: gray;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
